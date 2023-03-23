@@ -1,15 +1,14 @@
 body {
   width: 400px;
   margin: auto;
-  background-color: #e64448;
+  background-color: hsl(0, 81%, 32%);
 }
 
 header {
-  background-color: #fff;
+  background-color: hsl(0, 81%, 32%);
   padding-left: 5px;
 }
-
-.logo {
+header .logo {
   width: 80%;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -17,16 +16,14 @@ header {
 
 .local {
   display: block;
-  background-color: #e64448;
+  background-color: #e53c3f;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 5px;
 }
-
 .local h1 {
   color: #3c3a48;
 }
-
 .local p {
   color: #eab244;
 }
@@ -44,16 +41,13 @@ header {
   padding-bottom: 20px;
   padding-left: 5px;
 }
-
 .signup h1 {
   color: #696c6d;
 }
-
 .signup label {
   display: block;
   margin-bottom: 5px;
 }
-
 .signup input {
   display: block;
   margin-bottom: 20px;
@@ -66,11 +60,9 @@ header {
   padding-bottom: 20px;
   padding-left: 5px;
 }
-
 .about h1 {
-  color: #e64448;
+  color: #e53c3f;
 }
-
 .about p {
   color: #e1e2df;
-}
+}/*# sourceMappingURL=main.css.map */

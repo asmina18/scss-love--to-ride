@@ -1,0 +1,79 @@
+ // global variables
+ $red-farve:#e53c3f;
+ $page-background-color:hsl(0, 81%, 32%);
+ $graa-fave:#3c3a48;
+ $gul-fave:#eab244;
+ $hvid-farve:#e1e2df;
+ $lyseblaa-farve:#89c5c7;
+ $blaa-farve:#0b354b;
+ $graa-hvid:#696c6d;
+  
+body {
+    width: 400px;
+    margin: auto;
+    background-color:$page-background-color;
+  }
+
+  header {
+    background-color:$page-background-color;
+    padding-left: 5px;
+     .logo {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  }
+  .local { display: block; 
+    background-color:$red-farve; 
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+    padding-left: 5px;
+    h1 { 
+      color: $graa-fave;
+    }
+    p { 
+      color: $gul-fave; 
+    }
+  }
+  .bikes { 
+    background-color: $hvid-farve;
+    text-align: center; }
+
+  .signup {
+    display: block; 
+    background-color: $lyseblaa-farve; 
+    color: $blaa-farve;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    padding-left: 5px;
+    h1 {
+         color: $graa-hvid;
+       }
+    label {
+          display: block;
+          margin-bottom: 5px;
+         }
+    input { 
+          display: block;
+          margin-bottom: 20px; 
+        }
+         }
+   .about {
+          display: block;
+          background-color:$gul-fave;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          padding-left: 5px; 
+          h1 {
+             color: $red-farve;
+             } 
+         p { 
+              color:$hvid-farve; 
+            }
+
+        }
+       
+
+        
+ 
+  
